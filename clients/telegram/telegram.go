@@ -49,7 +49,7 @@ func (c *Client) doRequest(method string, query url.Values) ([]byte, error) {
 	req.URL.RawQuery = query.Encode()
 
 	resp, err: =c.client.Do(req)
-	if
+	if()
 }
 
 func (c *Client) SendMessages() {
